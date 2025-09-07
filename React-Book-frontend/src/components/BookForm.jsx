@@ -9,7 +9,8 @@ function BookForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post("http://localhost:8080/books", { title, author })
+    // Backend URL on Tomcat port 2030
+    axios.post("http://localhost:2030/backend-book-spring/books", { title, author })
       .then(() => navigate("/"))
       .catch(err => console.error(err));
   };

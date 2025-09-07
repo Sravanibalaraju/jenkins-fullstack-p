@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar";
 import BookList from "./components/BookList";
 import BookForm from "./components/BookForm";
 import BookEdit from "./components/BookEdit";
+import './App.css';
+
 
 function App() {
   return (

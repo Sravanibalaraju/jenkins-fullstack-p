@@ -9,7 +9,7 @@ function BookEdit() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    axios.get(`http://localhost:8080/books/${id}`)
+    axios.get(`http://localhost:2030/backend-book-spring/books/${id}`)
       .then(res => {
         setTitle(res.data.title);
         setAuthor(res.data.author);
@@ -19,7 +19,7 @@ function BookEdit() {
 
   const handleUpdate = (e) => {
     e.preventDefault();
-    axios.put(`http://localhost:8080/books/${id}`, { title, author })
+    axios.put(`http://localhost:2030/backend-book-spring/books/${id}`, { title, author })
       .then(() => navigate("/"))
       .catch(err => console.error(err));
   };
