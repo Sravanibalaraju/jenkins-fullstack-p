@@ -1,6 +1,0 @@
-INDEX VERSION 1.4+D:\3-1Oddsem\PRACTISE\FULLSTACK\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-3828000848.index
-334850393.index
-1038764537.index
-1962222078.index
-3525528678.index
