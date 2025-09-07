@@ -1,22 +1,39 @@
-# Logs
-logs
-*.log
+# === Node / React ===
+node_modules/
+dist/
+dist-ssr/
+build/
+*.local
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# === Java / Spring Boot ===
+target/
+*.class
+*.jar
+*.war
+*.ear
 
-# Editor directories and files
-.vscode/*
+# === Logs ===
+logs/
+*.log
+
+# === IDE / Editors ===
+.vscode/
 !.vscode/extensions.json
-.idea
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+.metadata/
+
+# === OS Files ===
 .DS_Store
+Thumbs.db
 *.suo
 *.ntvs*
 *.njsproj
